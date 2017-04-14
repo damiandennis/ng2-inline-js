@@ -1,0 +1,19 @@
+{
+  "name": "ng2-inline-js",
+  "version": "1.0.0",
+  "description": "Converts Angular templateUrls and styleUrls to their inline counterparts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damian Dennis <damiandennis@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "ng2inlineJs": "bin/ng2inline.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "mkdirp": "^0.5.1",
+    "yargs": "^7.1.0"
+  }
+}
